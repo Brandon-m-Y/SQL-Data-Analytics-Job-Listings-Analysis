@@ -1,0 +1,19 @@
+# Large data files - ignore all CSVs in the data folder
+SQL and Data Files/**/*.csv
+SQL and Data Files/csv_files/
+
+# Extra safety for any CSVs elsewhere
+*.csv
+
+# macOS system files
+.DS_Store
+._* 
+
+# Common other ignores
+*.xlsx
+*.xls
+*.zip
+*.bak
+.ipynb_checkpoints/
+__pycache__/
+.env
